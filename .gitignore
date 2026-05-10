@@ -1,0 +1,37 @@
+cat << 'EOF' > .gitignore
+# Environments & Dependencies
+.env
+.env.local
+.venv/
+venv/
+ENV/
+env/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.eggs/
+
+# Python Cache & Compiled Code
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+EOF
